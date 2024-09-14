@@ -1,0 +1,38 @@
+[build-system]
+requires = [
+    "setuptools >=61",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "seqpat"
+version = "0.1.0"
+description = "Parser for string sequence, inspired by reguar expressions"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+    {name = "Toshihiro Kamiya", email = "kamiya@mbj.nifty.com"}
+]
+license = {file = "LICENSE.txt"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Operating System :: POSIX :: Linux",
+]
+dependencies = [
+]
+
+[tool.setuptools.packages.find]
+exclude = ["build", "tests", "examples", "dev-samples"]
+
+[project.urls]
+homepage = "https://github.com/tos-kamiya/seqpat"
+repository = "https://github.com/tos-kamiya/seqpat"
+
+[tool.uv]
+dev-dependencies = [
+    "pyright>=1.1.0",
+    "pytest>=8.3.0",
+]
