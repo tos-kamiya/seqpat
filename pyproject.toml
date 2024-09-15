@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "seqpat"
-version = "0.1.0"
+version = "0.1.1"
 description = "Parser for string sequence, inspired by reguar expressions"
 readme = "README.md"
 requires-python = ">=3.10"

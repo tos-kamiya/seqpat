@@ -1,6 +1,6 @@
 # seqpat
 
-`seqpat` is a Python library designed for flexible and efficient sequence pattern matching, primarily aimed at converting microformats from various command-line tools into JSON format.
+`seqpat` is a Python library designed for flexible and efficient sequence pattern matching, primarily aimed at converting microformats from various command-line tools into JSON Line format.
 
 The motivation behind this project was the idea: *"Wouldn't it be great if we could perform operations on a sequence of strings (i.e., lines of text like in a text file) in the same way we use regular expressions on individual strings (i.e., a sequence of characters)?"*
 
@@ -30,7 +30,7 @@ For detailed usage, please refer to the Docstrings, and for examples, see the `e
 
 ## Related Projects
 
-- **[`jc`](https://github.com/kellyjonbrazil/jc)**: A CLI tool and Python library that converts the output of popular command-line tools (e.g., `ls`, `ps`, `ifconfig`) to JSON or JSONL for easier parsing and automation.
+- **[`jc`](https://github.com/kellyjonbrazil/jc)**: A CLI tool and Python library that converts the output of popular command-line tools (e.g., `ls`, `ps`, `ifconfig`) to JSON or JSON Line for easier parsing and automation.
 
 - **[`miller`](https://github.com/johnkerl/miller)**:  A CLI tool for manipulating CSV and JSON files. For example, you can convert a .csv file to .jsonl format with the following command: `$ mlr --icsv --ojsonl cat file.csv`
 
