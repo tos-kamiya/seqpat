@@ -1,13 +1,15 @@
 import re
 from typing import Any, Callable, List, Optional, Tuple, Union
 
+import importlib.metadata
+
 __version__: str = "0.0.0-unknown"
 try:
-    from importlib.metadata import version
-
     if __package__:
-        if v := version(__package__):
+        if v := importlib.metadata.version(__package__):
             __version__ = v
+except importlib.metadata.PackageNotFoundError:
+    pass
 except ValueError:
     pass
 
