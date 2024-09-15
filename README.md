@@ -29,6 +29,10 @@ The core of `seqpat` is its ability to define and use flexible patterns for text
 
 For detailed usage, please refer to the Docstrings, and for examples, see the `examples` directory.
 
+## Related Projects
+
+- **[`jc`](https://github.com/kellyjonbrazil/jc)**: A CLI tool and Python library that converts the output of popular command-line tools (e.g., `ls`, `ps`, `ifconfig`) to JSON or JSONL for easier parsing and automation.
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit issues or pull requests on the [GitHub repository](https://github.com/tos-kamiya/seqpat).
