@@ -8,7 +8,6 @@ The motivation behind this project was the idea: *"Wouldn't it be great if we co
 
 - **Pattern Matching**: Match sequences of strings using customizable patterns.
 - **Sequence Handling**: Process and parse structured text data efficiently.
-- **Flexible Parsing**: Handle continuation lines, key-value pairs, and more.
 - **Customizable Replacements**: Use pattern-based substitutions to transform the input as needed.
 
 ## Installation
@@ -32,6 +31,10 @@ For detailed usage, please refer to the Docstrings, and for examples, see the `e
 ## Related Projects
 
 - **[`jc`](https://github.com/kellyjonbrazil/jc)**: A CLI tool and Python library that converts the output of popular command-line tools (e.g., `ls`, `ps`, `ifconfig`) to JSON or JSONL for easier parsing and automation.
+
+- **[`miller`](https://github.com/johnkerl/miller)**:  A CLI tool for manipulating CSV and JSON files. For example, you can convert a .csv file to .jsonl format with the following command: `$ mlr --icsv --ojsonl cat file.csv`
+
+- **[`csvkit`](https://github.com/wireservice/csvkit)**: A CLI tool for converting CSV files to other formats. For instance, you can convert a .csv file to .jsonl format with `csvjson` command: `$ csvjson --stream file.csv`
 
 ## Contributing
 
